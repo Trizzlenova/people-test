@@ -33,9 +33,6 @@ app.use(morgan("dev")); // logging for development
 // all requests for endpoints that begin with '/people'
 app.use("/people", peopleController);
 
-// all requests for endpoints that begin with '/people'
-app.use("/people", peopleController);
-
 ///////////////////////////////
 // ROUTES
 ////////////////////////////////
